@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		36AC21A81552451400C68259 /* AUTHORS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AUTHORS; path = ../AUTHORS; sourceTree = "<group>"; };
+		36AC21A91552451400C68259 /* ChangeLog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ChangeLog; path = ../ChangeLog; sourceTree = "<group>"; };
+		36AC21AA1552451400C68259 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = COPYING; path = ../COPYING; sourceTree = "<group>"; };
+		36AC21AB1552451400C68259 /* ez_setup.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = ez_setup.py; path = ../ez_setup.py; sourceTree = "<group>"; };
+		36AC21AC1552451400C68259 /* MANIFEST.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = MANIFEST.in; path = ../MANIFEST.in; sourceTree = "<group>"; };
+		36AC21AD1552451400C68259 /* pylintrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = pylintrc; path = ../pylintrc; sourceTree = "<group>"; };
+		36AC21AE1552451400C68259 /* README.rst */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.rst; path = ../README.rst; sourceTree = "<group>"; };
+		36AC21AF1552451400C68259 /* setup.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = setup.cfg; path = ../setup.cfg; sourceTree = "<group>"; };
+		36AC21B01552451400C68259 /* setup.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = setup.py; path = ../setup.py; sourceTree = "<group>"; };
+		36AC21B11552451400C68259 /* THANKS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = THANKS; path = ../THANKS; sourceTree = "<group>"; };
+		36AC21B31552451400C68259 /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		36AC21B61552451400C68259 /* about.template */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = about.template; sourceTree = "<group>"; };
+		36AC21B71552451400C68259 /* about2.template */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = about2.template; sourceTree = "<group>"; };
+		36AC21B81552451400C68259 /* about3.template */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = about3.template; sourceTree = "<group>"; };
+		36AC21B91552451400C68259 /* about_fx.template */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = about_fx.template; sourceTree = "<group>"; };
+		36AC21BA1552451400C68259 /* about_impress.template */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = about_impress.template; sourceTree = "<group>"; };
+		36AC21BB1552451400C68259 /* account.partial */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = account.partial; sourceTree = "<group>"; };
+		36AC21BC1552451400C68259 /* account_form.template */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = account_form.template; sourceTree = "<group>"; };
+		36AC21BD1552451400C68259 /* accounts.template */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = accounts.template; sourceTree = "<group>"; };
+		36AC21BE1552451400C68259 /* column.partial */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = column.partial; sourceTree = "<group>"; };
+		36AC21BF1552451400C68259 /* column_content.partial */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = column_content.partial; sourceTree = "<group>"; };
+		36AC21C11552451400C68259 /* account_form.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = account_form.css; sourceTree = "<group>"; };
+		36AC21C21552451400C68259 /* accounts.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = accounts.css; sourceTree = "<group>"; };
+		36AC21C31552451400C68259 /* common.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = common.css; sourceTree = "<group>"; };
+		36AC21C41552451400C68259 /* empty.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = empty.css; sourceTree = "<group>"; };
+		36AC21C51552451400C68259 /* general.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = general.css; sourceTree = "<group>"; };
+		36AC21C61552451400C68259 /* impress-demo.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "impress-demo.css"; sourceTree = "<group>"; };
+		36AC21C71552451400C68259 /* index.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = index.css; sourceTree = "<group>"; };
+		36AC21C81552451400C68259 /* jquery.autocomplete.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = jquery.autocomplete.css; sourceTree = "<group>"; };
+		36AC21C91552451400C68259 /* main.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = main.css; sourceTree = "<group>"; };
+		36AC21CA1552451400C68259 /* empty.template */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = empty.template; sourceTree = "<group>"; };
+		36AC21CC1552451400C68259 /* account_form.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = account_form.js; sourceTree = "<group>"; };
+		36AC21CD1552451400C68259 /* accounts.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = accounts.js; sourceTree = "<group>"; };
+		36AC21CE1552451400C68259 /* animation.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = animation.js; sourceTree = "<group>"; };
+		36AC21CF1552451400C68259 /* common.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = common.js; sourceTree = "<group>"; };
+		36AC21D01552451400C68259 /* empty.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = empty.js; sourceTree = "<group>"; };
+		36AC21D11552451400C68259 /* fx-m.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "fx-m.js"; sourceTree = "<group>"; };
+		36AC21D21552451400C68259 /* impress.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = impress.js; sourceTree = "<group>"; };
+		36AC21D31552451400C68259 /* jquery.autocomplete.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.autocomplete.js; sourceTree = "<group>"; };
+		36AC21D41552451400C68259 /* jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.js; sourceTree = "<group>"; };
+		36AC21D51552451400C68259 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		36AC21D61552451400C68259 /* main.template */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.template; sourceTree = "<group>"; };
+		36AC21D71552451400C68259 /* profile.partial */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = profile.partial; sourceTree = "<group>"; };
+		36AC21D81552451400C68259 /* status.partial */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = status.partial; sourceTree = "<group>"; };
+		36AC21DA1552451400C68259 /* action-add-friends.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "action-add-friends.png"; sourceTree = "<group>"; };
+		36AC21DB1552451400C68259 /* action-autoscroll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "action-autoscroll.png"; sourceTree = "<group>"; };
+		36AC21DC1552451400C68259 /* action-clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "action-clear.png"; sourceTree = "<group>"; };
+		36AC21DD1552451400C68259 /* action-delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "action-delete.png"; sourceTree = "<group>"; };
+		36AC21DE1552451400C68259 /* action-edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "action-edit.png"; sourceTree = "<group>"; };
+		36AC21DF1552451400C68259 /* action-mark-all.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "action-mark-all.png"; sourceTree = "<group>"; };
+		36AC21E01552451400C68259 /* action-refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "action-refresh.png"; sourceTree = "<group>"; };
+		36AC21E11552451400C68259 /* action-refresh2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "action-refresh2.png"; sourceTree = "<group>"; };
+		36AC21E21552451400C68259 /* action-status-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "action-status-menu.png"; sourceTree = "<group>"; };
+		36AC21E31552451400C68259 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		36AC21E41552451400C68259 /* anchor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anchor.png; sourceTree = "<group>"; };
+		36AC21E51552451400C68259 /* arbol1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arbol1.png; sourceTree = "<group>"; };
+		36AC21E61552451400C68259 /* arbol2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arbol2.png; sourceTree = "<group>"; };
+		36AC21E71552451400C68259 /* arbol3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arbol3.png; sourceTree = "<group>"; };
+		36AC21E81552451400C68259 /* arbol4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arbol4.png; sourceTree = "<group>"; };
+		36AC21E91552451400C68259 /* arbol5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arbol5.png; sourceTree = "<group>"; };
+		36AC21EA1552451400C68259 /* bg_body.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_body.jpg; sourceTree = "<group>"; };
+		36AC21EB1552451400C68259 /* bg_bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_bubble.png; sourceTree = "<group>"; };
+		36AC21EC1552451400C68259 /* bg_docs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_docs.png; sourceTree = "<group>"; };
+		36AC21ED1552451400C68259 /* bg_download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_download.png; sourceTree = "<group>"; };
+		36AC21EE1552451400C68259 /* cloud1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud1.png; sourceTree = "<group>"; };
+		36AC21EF1552451400C68259 /* cloud2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud2.png; sourceTree = "<group>"; };
+		36AC21F01552451400C68259 /* cloud3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud3.png; sourceTree = "<group>"; };
+		36AC21F11552451400C68259 /* columns.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = columns.png; sourceTree = "<group>"; };
+		36AC21F21552451400C68259 /* dark-loader.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "dark-loader.gif"; sourceTree = "<group>"; };
+		36AC21F31552451400C68259 /* dock-about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dock-about.png"; sourceTree = "<group>"; };
+		36AC21F41552451400C68259 /* dock-accounts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dock-accounts.png"; sourceTree = "<group>"; };
+		36AC21F51552451400C68259 /* dock-add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dock-add.png"; sourceTree = "<group>"; };
+		36AC21F61552451400C68259 /* dock-message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dock-message.png"; sourceTree = "<group>"; };
+		36AC21F71552451400C68259 /* dock-preferences.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dock-preferences.png"; sourceTree = "<group>"; };
+		36AC21F81552451400C68259 /* dock-preferences2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dock-preferences2.png"; sourceTree = "<group>"; };
+		36AC21F91552451400C68259 /* dock-profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dock-profile.png"; sourceTree = "<group>"; };
+		36AC21FA1552451400C68259 /* dock-update.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dock-update.png"; sourceTree = "<group>"; };
+		36AC21FB1552451400C68259 /* flowers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flowers.png; sourceTree = "<group>"; };
+		36AC21FC1552451400C68259 /* fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondo.png; sourceTree = "<group>"; };
+		36AC21FD1552451400C68259 /* gross1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gross1.png; sourceTree = "<group>"; };
+		36AC21FE1552451400C68259 /* gross2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gross2.png; sourceTree = "<group>"; };
+		36AC21FF1552451400C68259 /* icon-bio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-bio.png"; sourceTree = "<group>"; };
+		36AC22001552451400C68259 /* icon-location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-location.png"; sourceTree = "<group>"; };
+		36AC22011552451400C68259 /* icon-web.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-web.png"; sourceTree = "<group>"; };
+		36AC22021552451400C68259 /* identica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = identica.png; sourceTree = "<group>"; };
+		36AC22031552451400C68259 /* landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landscape.png; sourceTree = "<group>"; };
+		36AC22041552451400C68259 /* light-loader.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "light-loader.gif"; sourceTree = "<group>"; };
+		36AC22051552451400C68259 /* logo-login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-login.png"; sourceTree = "<group>"; };
+		36AC22061552451400C68259 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		36AC22071552451400C68259 /* logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo2.png; sourceTree = "<group>"; };
+		36AC22081552451400C68259 /* mark-favorite-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mark-favorite-black.png"; sourceTree = "<group>"; };
+		36AC22091552451400C68259 /* mark-favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mark-favorite.png"; sourceTree = "<group>"; };
+		36AC220A1552451400C68259 /* mark-locked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mark-locked.png"; sourceTree = "<group>"; };
+		36AC220B1552451400C68259 /* mark-repeated.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mark-repeated.png"; sourceTree = "<group>"; };
+		36AC220C1552451400C68259 /* mark-retweeted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mark-retweeted.png"; sourceTree = "<group>"; };
+		36AC220D1552451400C68259 /* mark-unfavorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mark-unfavorite.png"; sourceTree = "<group>"; };
+		36AC220E1552451400C68259 /* mark-verified.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mark-verified.png"; sourceTree = "<group>"; };
+		36AC220F1552451400C68259 /* nube1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nube1.png; sourceTree = "<group>"; };
+		36AC22101552451400C68259 /* nube2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nube2.png; sourceTree = "<group>"; };
+		36AC22111552451400C68259 /* nube2png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nube2png.png; sourceTree = "<group>"; };
+		36AC22121552451400C68259 /* nube3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nube3.png; sourceTree = "<group>"; };
+		36AC22131552451400C68259 /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
+		36AC22141552451400C68259 /* textinput-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "textinput-background.png"; sourceTree = "<group>"; };
+		36AC22151552451400C68259 /* tierra1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tierra1.png; sourceTree = "<group>"; };
+		36AC22161552451400C68259 /* tierra2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tierra2.png; sourceTree = "<group>"; };
+		36AC22171552451400C68259 /* tree1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree1.png; sourceTree = "<group>"; };
+		36AC22181552451400C68259 /* tree2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree2.png; sourceTree = "<group>"; };
+		36AC22191552451400C68259 /* tree3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree3.png; sourceTree = "<group>"; };
+		36AC221A1552451400C68259 /* treec1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = treec1.png; sourceTree = "<group>"; };
+		36AC221B1552451400C68259 /* treec2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = treec2.png; sourceTree = "<group>"; };
+		36AC221C1552451400C68259 /* treec3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = treec3.png; sourceTree = "<group>"; };
+		36AC221D1552451400C68259 /* turpial-all.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = "turpial-all.dat"; sourceTree = "<group>"; };
+		36AC221E1552451400C68259 /* turpial-notification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "turpial-notification.png"; sourceTree = "<group>"; };
+		36AC221F1552451400C68259 /* turpial-tray-update.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "turpial-tray-update.png"; sourceTree = "<group>"; };
+		36AC22201552451400C68259 /* turpial-tray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "turpial-tray.png"; sourceTree = "<group>"; };
+		36AC22211552451400C68259 /* turpial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turpial.png; sourceTree = "<group>"; };
+		36AC22221552451400C68259 /* turpial.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = turpial.svg; sourceTree = "<group>"; };
+		36AC22231552451400C68259 /* turpial_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turpial_logo.png; sourceTree = "<group>"; };
+		36AC22241552451400C68259 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		36AC22251552451400C68259 /* unknown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unknown.png; sourceTree = "<group>"; };
+		36AC22271552451400C68259 /* cambur_pinton.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = cambur_pinton.ogg; sourceTree = "<group>"; };
+		36AC22281552451400C68259 /* mencion.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = mencion.ogg; sourceTree = "<group>"; };
+		36AC22291552451400C68259 /* mencion2.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = mencion2.ogg; sourceTree = "<group>"; };
+		36AC222A1552451400C68259 /* mencion3.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = mencion3.ogg; sourceTree = "<group>"; };
+		36AC222B1552451400C68259 /* turpial.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = turpial.ogg; sourceTree = "<group>"; };
+		36AC222E1552451400C68259 /* accounts.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = accounts.css; sourceTree = "<group>"; };
+		36AC222F1552451400C68259 /* accounts.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = accounts.html; sourceTree = "<group>"; };
+		36AC22301552451400C68259 /* accounts.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = accounts.js; sourceTree = "<group>"; };
+		36AC22311552451400C68259 /* common.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = common.css; sourceTree = "<group>"; };
+		36AC22321552451400C68259 /* common.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = common.js; sourceTree = "<group>"; };
+		36AC22331552451400C68259 /* login.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = login.css; sourceTree = "<group>"; };
+		36AC22341552451400C68259 /* login.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = login.html; sourceTree = "<group>"; };
+		36AC22351552451400C68259 /* login.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = login.js; sourceTree = "<group>"; };
+		36AC22361552451400C68259 /* main.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = main.css; sourceTree = "<group>"; };
+		36AC22371552451400C68259 /* main.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = main.html; sourceTree = "<group>"; };
+		36AC22381552451400C68259 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		36AC22391552451400C68259 /* modal.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = modal.css; sourceTree = "<group>"; };
+		36AC223A1552451400C68259 /* notice.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = notice.css; sourceTree = "<group>"; };
+		36AC223B1552451400C68259 /* style (copia).css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "style (copia).css"; sourceTree = "<group>"; };
+		36AC223C1552451400C68259 /* tweet.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tweet.html; sourceTree = "<group>"; };
+		36AC223D1552451400C68259 /* tweet_template.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tweet_template.html; sourceTree = "<group>"; };
+		36AC223F1552451400C68259 /* account_manager.ep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = account_manager.ep; sourceTree = "<group>"; };
+		36AC22401552451400C68259 /* accounts-flow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "accounts-flow.png"; sourceTree = "<group>"; };
+		36AC22411552451400C68259 /* columns-manager.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "columns-manager.png"; sourceTree = "<group>"; };
+		36AC22421552451400C68259 /* columns_manager.ep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = columns_manager.ep; sourceTree = "<group>"; };
+		36AC22431552451400C68259 /* dock.ep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = dock.ep; sourceTree = "<group>"; };
+		36AC22441552451400C68259 /* dock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dock.png; sourceTree = "<group>"; };
+		36AC22451552451400C68259 /* layout.ep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = layout.ep; sourceTree = "<group>"; };
+		36AC22461552451400C68259 /* turpial-2.0-login-window.mockup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "turpial-2.0-login-window.mockup.png"; sourceTree = "<group>"; };
+		36AC22471552451400C68259 /* main.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
+		36AC22481552451400C68259 /* notification.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = notification.py; sourceTree = "<group>"; };
+		36AC22491552451400C68259 /* singleton.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = singleton.py; sourceTree = "<group>"; };
+		36AC224B1552451400C68259 /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		36AC224C1552451400C68259 /* base.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = base.py; sourceTree = "<group>"; };
+		36AC224E1552451400C68259 /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		36AC224F1552451400C68259 /* main.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
+		36AC22511552451400C68259 /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		36AC22521552451400C68259 /* about.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = about.py; sourceTree = "<group>"; };
+		36AC22531552451400C68259 /* accounts.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = accounts.py; sourceTree = "<group>"; };
+		36AC22541552451400C68259 /* htmlview.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = htmlview.py; sourceTree = "<group>"; };
+		36AC22551552451400C68259 /* indicator.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = indicator.py; sourceTree = "<group>"; };
+		36AC22561552451400C68259 /* main.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
+		36AC22571552451400C68259 /* oauthwin.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = oauthwin.py; sourceTree = "<group>"; };
+		36AC22581552451400C68259 /* preferences.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = preferences.py; sourceTree = "<group>"; };
+		36AC22591552451400C68259 /* unitylauncher.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = unitylauncher.py; sourceTree = "<group>"; };
+		36AC225A1552451400C68259 /* waiting.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = waiting.py; sourceTree = "<group>"; };
+		36AC225B1552451400C68259 /* worker.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = worker.py; sourceTree = "<group>"; };
+		36AC225C1552451400C68259 /* html.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = html.py; sourceTree = "<group>"; };
+		36AC225D1552451400C68259 /* lang.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = lang.py; sourceTree = "<group>"; };
+		36AC225F1552451400C68259 /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		36AC22601552451400C68259 /* about.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = about.py; sourceTree = "<group>"; };
+		36AC22611552451400C68259 /* account_form.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = account_form.py; sourceTree = "<group>"; };
+		36AC22621552451400C68259 /* accounts.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = accounts.py; sourceTree = "<group>"; };
+		36AC22631552451400C68259 /* accounts_bk.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = accounts_bk.py; sourceTree = "<group>"; };
+		36AC22651552451400C68259 /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		36AC22661552451400C68259 /* credentials.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = credentials.py; sourceTree = "<group>"; };
+		36AC22671552451400C68259 /* htmlview.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = htmlview.py; sourceTree = "<group>"; };
+		36AC22681552451400C68259 /* htmlview_prev.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = htmlview_prev.py; sourceTree = "<group>"; };
+		36AC22691552451400C68259 /* main.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
+		36AC226A1552451400C68259 /* main_prev.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = main_prev.py; sourceTree = "<group>"; };
+		36AC226B1552451400C68259 /* oauthwin.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = oauthwin.py; sourceTree = "<group>"; };
+		36AC226C1552451400C68259 /* worker.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = worker.py; sourceTree = "<group>"; };
+		36AC226D1552451400C68259 /* sound.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = sound.py; sourceTree = "<group>"; };
+		36AC226E1552451400C68259 /* util.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = util.py; sourceTree = "<group>"; };
+		36AC22701552451400C68259 /* Turpial-for-Mac.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Turpial-for-Mac.xcodeproj"; sourceTree = "<group>"; };
+		36AC22731552451400C68259 /* turpial.desktop */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = turpial.desktop; path = ../turpial.desktop; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		36AC219B155244C200C68259 = {
+			isa = PBXGroup;
+			children = (
+				36AC21A81552451400C68259 /* AUTHORS */,
+				36AC21A91552451400C68259 /* ChangeLog */,
+				36AC21AA1552451400C68259 /* COPYING */,
+				36AC21AB1552451400C68259 /* ez_setup.py */,
+				36AC21AC1552451400C68259 /* MANIFEST.in */,
+				36AC21AD1552451400C68259 /* pylintrc */,
+				36AC21AE1552451400C68259 /* README.rst */,
+				36AC21AF1552451400C68259 /* setup.cfg */,
+				36AC21B01552451400C68259 /* setup.py */,
+				36AC21B11552451400C68259 /* THANKS */,
+				36AC21B21552451400C68259 /* turpial */,
+				36AC226F1552451400C68259 /* Turpial-for-Mac */,
+				36AC22731552451400C68259 /* turpial.desktop */,
+			);
+			sourceTree = "<group>";
+		};
+		36AC21B21552451400C68259 /* turpial */ = {
+			isa = PBXGroup;
+			children = (
+				36AC21B31552451400C68259 /* __init__.py */,
+				36AC21B41552451400C68259 /* data */,
+				36AC223E1552451400C68259 /* docs */,
+				36AC22471552451400C68259 /* main.py */,
+				36AC22481552451400C68259 /* notification.py */,
+				36AC22491552451400C68259 /* singleton.py */,
+				36AC224A1552451400C68259 /* ui */,
+			);
+			name = turpial;
+			path = ../turpial;
+			sourceTree = "<group>";
+		};
+		36AC21B41552451400C68259 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				36AC21B51552451400C68259 /* layout */,
+				36AC21D91552451400C68259 /* pixmaps */,
+				36AC22261552451400C68259 /* sounds */,
+				36AC222C1552451400C68259 /* themes */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		36AC21B51552451400C68259 /* layout */ = {
+			isa = PBXGroup;
+			children = (
+				36AC21B61552451400C68259 /* about.template */,
+				36AC21B71552451400C68259 /* about2.template */,
+				36AC21B81552451400C68259 /* about3.template */,
+				36AC21B91552451400C68259 /* about_fx.template */,
+				36AC21BA1552451400C68259 /* about_impress.template */,
+				36AC21BB1552451400C68259 /* account.partial */,
+				36AC21BC1552451400C68259 /* account_form.template */,
+				36AC21BD1552451400C68259 /* accounts.template */,
+				36AC21BE1552451400C68259 /* column.partial */,
+				36AC21BF1552451400C68259 /* column_content.partial */,
+				36AC21C01552451400C68259 /* css */,
+				36AC21CA1552451400C68259 /* empty.template */,
+				36AC21CB1552451400C68259 /* js */,
+				36AC21D61552451400C68259 /* main.template */,
+				36AC21D71552451400C68259 /* profile.partial */,
+				36AC21D81552451400C68259 /* status.partial */,
+			);
+			path = layout;
+			sourceTree = "<group>";
+		};
+		36AC21C01552451400C68259 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				36AC21C11552451400C68259 /* account_form.css */,
+				36AC21C21552451400C68259 /* accounts.css */,
+				36AC21C31552451400C68259 /* common.css */,
+				36AC21C41552451400C68259 /* empty.css */,
+				36AC21C51552451400C68259 /* general.css */,
+				36AC21C61552451400C68259 /* impress-demo.css */,
+				36AC21C71552451400C68259 /* index.css */,
+				36AC21C81552451400C68259 /* jquery.autocomplete.css */,
+				36AC21C91552451400C68259 /* main.css */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		36AC21CB1552451400C68259 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				36AC21CC1552451400C68259 /* account_form.js */,
+				36AC21CD1552451400C68259 /* accounts.js */,
+				36AC21CE1552451400C68259 /* animation.js */,
+				36AC21CF1552451400C68259 /* common.js */,
+				36AC21D01552451400C68259 /* empty.js */,
+				36AC21D11552451400C68259 /* fx-m.js */,
+				36AC21D21552451400C68259 /* impress.js */,
+				36AC21D31552451400C68259 /* jquery.autocomplete.js */,
+				36AC21D41552451400C68259 /* jquery.js */,
+				36AC21D51552451400C68259 /* main.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		36AC21D91552451400C68259 /* pixmaps */ = {
+			isa = PBXGroup;
+			children = (
+				36AC21DA1552451400C68259 /* action-add-friends.png */,
+				36AC21DB1552451400C68259 /* action-autoscroll.png */,
+				36AC21DC1552451400C68259 /* action-clear.png */,
+				36AC21DD1552451400C68259 /* action-delete.png */,
+				36AC21DE1552451400C68259 /* action-edit.png */,
+				36AC21DF1552451400C68259 /* action-mark-all.png */,
+				36AC21E01552451400C68259 /* action-refresh.png */,
+				36AC21E11552451400C68259 /* action-refresh2.png */,
+				36AC21E21552451400C68259 /* action-status-menu.png */,
+				36AC21E31552451400C68259 /* add.png */,
+				36AC21E41552451400C68259 /* anchor.png */,
+				36AC21E51552451400C68259 /* arbol1.png */,
+				36AC21E61552451400C68259 /* arbol2.png */,
+				36AC21E71552451400C68259 /* arbol3.png */,
+				36AC21E81552451400C68259 /* arbol4.png */,
+				36AC21E91552451400C68259 /* arbol5.png */,
+				36AC21EA1552451400C68259 /* bg_body.jpg */,
+				36AC21EB1552451400C68259 /* bg_bubble.png */,
+				36AC21EC1552451400C68259 /* bg_docs.png */,
+				36AC21ED1552451400C68259 /* bg_download.png */,
+				36AC21EE1552451400C68259 /* cloud1.png */,
+				36AC21EF1552451400C68259 /* cloud2.png */,
+				36AC21F01552451400C68259 /* cloud3.png */,
+				36AC21F11552451400C68259 /* columns.png */,
+				36AC21F21552451400C68259 /* dark-loader.gif */,
+				36AC21F31552451400C68259 /* dock-about.png */,
+				36AC21F41552451400C68259 /* dock-accounts.png */,
+				36AC21F51552451400C68259 /* dock-add.png */,
+				36AC21F61552451400C68259 /* dock-message.png */,
+				36AC21F71552451400C68259 /* dock-preferences.png */,
+				36AC21F81552451400C68259 /* dock-preferences2.png */,
+				36AC21F91552451400C68259 /* dock-profile.png */,
+				36AC21FA1552451400C68259 /* dock-update.png */,
+				36AC21FB1552451400C68259 /* flowers.png */,
+				36AC21FC1552451400C68259 /* fondo.png */,
+				36AC21FD1552451400C68259 /* gross1.png */,
+				36AC21FE1552451400C68259 /* gross2.png */,
+				36AC21FF1552451400C68259 /* icon-bio.png */,
+				36AC22001552451400C68259 /* icon-location.png */,
+				36AC22011552451400C68259 /* icon-web.png */,
+				36AC22021552451400C68259 /* identica.png */,
+				36AC22031552451400C68259 /* landscape.png */,
+				36AC22041552451400C68259 /* light-loader.gif */,
+				36AC22051552451400C68259 /* logo-login.png */,
+				36AC22061552451400C68259 /* logo.png */,
+				36AC22071552451400C68259 /* logo2.png */,
+				36AC22081552451400C68259 /* mark-favorite-black.png */,
+				36AC22091552451400C68259 /* mark-favorite.png */,
+				36AC220A1552451400C68259 /* mark-locked.png */,
+				36AC220B1552451400C68259 /* mark-repeated.png */,
+				36AC220C1552451400C68259 /* mark-retweeted.png */,
+				36AC220D1552451400C68259 /* mark-unfavorite.png */,
+				36AC220E1552451400C68259 /* mark-verified.png */,
+				36AC220F1552451400C68259 /* nube1.png */,
+				36AC22101552451400C68259 /* nube2.png */,
+				36AC22111552451400C68259 /* nube2png.png */,
+				36AC22121552451400C68259 /* nube3.png */,
+				36AC22131552451400C68259 /* sun.png */,
+				36AC22141552451400C68259 /* textinput-background.png */,
+				36AC22151552451400C68259 /* tierra1.png */,
+				36AC22161552451400C68259 /* tierra2.png */,
+				36AC22171552451400C68259 /* tree1.png */,
+				36AC22181552451400C68259 /* tree2.png */,
+				36AC22191552451400C68259 /* tree3.png */,
+				36AC221A1552451400C68259 /* treec1.png */,
+				36AC221B1552451400C68259 /* treec2.png */,
+				36AC221C1552451400C68259 /* treec3.png */,
+				36AC221D1552451400C68259 /* turpial-all.dat */,
+				36AC221E1552451400C68259 /* turpial-notification.png */,
+				36AC221F1552451400C68259 /* turpial-tray-update.png */,
+				36AC22201552451400C68259 /* turpial-tray.png */,
+				36AC22211552451400C68259 /* turpial.png */,
+				36AC22221552451400C68259 /* turpial.svg */,
+				36AC22231552451400C68259 /* turpial_logo.png */,
+				36AC22241552451400C68259 /* twitter.png */,
+				36AC22251552451400C68259 /* unknown.png */,
+			);
+			path = pixmaps;
+			sourceTree = "<group>";
+		};
+		36AC22261552451400C68259 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				36AC22271552451400C68259 /* cambur_pinton.ogg */,
+				36AC22281552451400C68259 /* mencion.ogg */,
+				36AC22291552451400C68259 /* mencion2.ogg */,
+				36AC222A1552451400C68259 /* mencion3.ogg */,
+				36AC222B1552451400C68259 /* turpial.ogg */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+		36AC222C1552451400C68259 /* themes */ = {
+			isa = PBXGroup;
+			children = (
+				36AC222D1552451400C68259 /* default */,
+			);
+			path = themes;
+			sourceTree = "<group>";
+		};
+		36AC222D1552451400C68259 /* default */ = {
+			isa = PBXGroup;
+			children = (
+				36AC222E1552451400C68259 /* accounts.css */,
+				36AC222F1552451400C68259 /* accounts.html */,
+				36AC22301552451400C68259 /* accounts.js */,
+				36AC22311552451400C68259 /* common.css */,
+				36AC22321552451400C68259 /* common.js */,
+				36AC22331552451400C68259 /* login.css */,
+				36AC22341552451400C68259 /* login.html */,
+				36AC22351552451400C68259 /* login.js */,
+				36AC22361552451400C68259 /* main.css */,
+				36AC22371552451400C68259 /* main.html */,
+				36AC22381552451400C68259 /* main.js */,
+				36AC22391552451400C68259 /* modal.css */,
+				36AC223A1552451400C68259 /* notice.css */,
+				36AC223B1552451400C68259 /* style (copia).css */,
+				36AC223C1552451400C68259 /* tweet.html */,
+				36AC223D1552451400C68259 /* tweet_template.html */,
+			);
+			path = default;
+			sourceTree = "<group>";
+		};
+		36AC223E1552451400C68259 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				36AC223F1552451400C68259 /* account_manager.ep */,
+				36AC22401552451400C68259 /* accounts-flow.png */,
+				36AC22411552451400C68259 /* columns-manager.png */,
+				36AC22421552451400C68259 /* columns_manager.ep */,
+				36AC22431552451400C68259 /* dock.ep */,
+				36AC22441552451400C68259 /* dock.png */,
+				36AC22451552451400C68259 /* layout.ep */,
+				36AC22461552451400C68259 /* turpial-2.0-login-window.mockup.png */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+		36AC224A1552451400C68259 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				36AC224B1552451400C68259 /* __init__.py */,
+				36AC224C1552451400C68259 /* base.py */,
+				36AC224D1552451400C68259 /* cmd */,
+				36AC22501552451400C68259 /* gtk */,
+				36AC225C1552451400C68259 /* html.py */,
+				36AC225D1552451400C68259 /* lang.py */,
+				36AC225E1552451400C68259 /* qt */,
+				36AC226D1552451400C68259 /* sound.py */,
+				36AC226E1552451400C68259 /* util.py */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		36AC224D1552451400C68259 /* cmd */ = {
+			isa = PBXGroup;
+			children = (
+				36AC224E1552451400C68259 /* __init__.py */,
+				36AC224F1552451400C68259 /* main.py */,
+			);
+			path = cmd;
+			sourceTree = "<group>";
+		};
+		36AC22501552451400C68259 /* gtk */ = {
+			isa = PBXGroup;
+			children = (
+				36AC22511552451400C68259 /* __init__.py */,
+				36AC22521552451400C68259 /* about.py */,
+				36AC22531552451400C68259 /* accounts.py */,
+				36AC22541552451400C68259 /* htmlview.py */,
+				36AC22551552451400C68259 /* indicator.py */,
+				36AC22561552451400C68259 /* main.py */,
+				36AC22571552451400C68259 /* oauthwin.py */,
+				36AC22581552451400C68259 /* preferences.py */,
+				36AC22591552451400C68259 /* unitylauncher.py */,
+				36AC225A1552451400C68259 /* waiting.py */,
+				36AC225B1552451400C68259 /* worker.py */,
+			);
+			path = gtk;
+			sourceTree = "<group>";
+		};
+		36AC225E1552451400C68259 /* qt */ = {
+			isa = PBXGroup;
+			children = (
+				36AC225F1552451400C68259 /* __init__.py */,
+				36AC22601552451400C68259 /* about.py */,
+				36AC22611552451400C68259 /* account_form.py */,
+				36AC22621552451400C68259 /* accounts.py */,
+				36AC22631552451400C68259 /* accounts_bk.py */,
+				36AC22641552451400C68259 /* dialogs */,
+				36AC22671552451400C68259 /* htmlview.py */,
+				36AC22681552451400C68259 /* htmlview_prev.py */,
+				36AC22691552451400C68259 /* main.py */,
+				36AC226A1552451400C68259 /* main_prev.py */,
+				36AC226B1552451400C68259 /* oauthwin.py */,
+				36AC226C1552451400C68259 /* worker.py */,
+			);
+			path = qt;
+			sourceTree = "<group>";
+		};
+		36AC22641552451400C68259 /* dialogs */ = {
+			isa = PBXGroup;
+			children = (
+				36AC22651552451400C68259 /* __init__.py */,
+				36AC22661552451400C68259 /* credentials.py */,
+			);
+			path = dialogs;
+			sourceTree = "<group>";
+		};
+		36AC226F1552451400C68259 /* Turpial-for-Mac */ = {
+			isa = PBXGroup;
+			children = (
+				36AC22701552451400C68259 /* Turpial-for-Mac.xcodeproj */,
+			);
+			name = "Turpial-for-Mac";
+			sourceTree = "<group>";
+		};
+		36AC22711552451400C68259 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		36AC21A2155244C200C68259 /* Turpial-for-Mac */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 36AC21A5155244C200C68259 /* Build configuration list for PBXLegacyTarget "Turpial-for-Mac" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/python;
+			dependencies = (
+			);
+			name = "Turpial-for-Mac";
+			passBuildSettingsInEnvironment = 1;
+			productName = "Turpial-for-Mac";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		36AC219D155244C200C68259 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 36AC21A0155244C200C68259 /* Build configuration list for PBXProject "Turpial-for-Mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 36AC219B155244C200C68259;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 36AC22711552451400C68259 /* Products */;
+					ProjectRef = 36AC22701552451400C68259 /* Turpial-for-Mac.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				36AC21A2155244C200C68259 /* Turpial-for-Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		36AC21A3155244C200C68259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		36AC21A4155244C200C68259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		36AC21A6155244C200C68259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36AC21A7155244C200C68259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36AC21A0155244C200C68259 /* Build configuration list for PBXProject "Turpial-for-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36AC21A3155244C200C68259 /* Debug */,
+				36AC21A4155244C200C68259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36AC21A5155244C200C68259 /* Build configuration list for PBXLegacyTarget "Turpial-for-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36AC21A6155244C200C68259 /* Debug */,
+				36AC21A7155244C200C68259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36AC219D155244C200C68259 /* Project object */;
+}
